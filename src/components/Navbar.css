@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #F2DCDC;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+
+.navbar img {
+  width: 43px;
+  height: 43px; 
+}

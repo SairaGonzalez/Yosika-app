@@ -1,0 +1,59 @@
+/* src/components/Menu.css */
+.menu-container {
+  position: relative;
+  width: 100%;
+  left: 0;
+}
+
+.menu-toggle {
+  width: 43px; 
+  height: 43px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-content {
+  padding: 10px 0;
+  background-color: #F2DCDC;
+}
+
+.menu-title {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  color: #988383;
+  background-color: #F2DCDC;
+  text-align: center;
+  margin-bottom: 10px;
+  letter-spacing: 0.15em;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #B08C8C;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: 1000;
+}
+
+.menu-item {
+  padding: 10px;
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+  color: white;
+  letter-spacing: 0.15em;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  margin-left: 20px;
+}
+
+.menu-item:hover {
+  background-color: #988383;
+}
